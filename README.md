@@ -12,7 +12,6 @@ Mas existe um detalhe:
 
 <img width="2484" height="3512" alt="Trilha do Explorador capa" src="https://github.com/user-attachments/assets/ecf24cca-44ef-4e20-a53e-1fb2888da190" />
 
-
 ---
 
 ## 🧭 Sobre o jogo
@@ -112,39 +111,25 @@ Algumas regiões somente poderão ser alcançadas utilizando uma embarcação.
 Todo o sistema gira em torno de três atributos.
 
 ### ❤️ Energia
+**Inicial: 5** • **Máximo: 10**
 
-Representa sua disposição para continuar a jornada.
-
-**Inicial: 5**  
-**Máximo: 10**
-
-Se chegar a zero, a jornada termina.
+Representa sua disposição para continuar a jornada. Se chegar a zero, a jornada termina.
 
 ### ⚜️ Experiência
+**Inicial: 1** • **Máximo: 8**
 
-Representa aquilo que você aprendeu durante a aventura.
-
-**Inicial: 1**  
-**Máximo: 8**
-
-Quanto maior sua Experiência, mais preparado estará para enfrentar os desafios.
+Representa aquilo que você aprendeu durante a aventura. Quanto maior sua Experiência, mais preparado estará para enfrentar os desafios.
 
 ### 🏆 Conquistas
+**Inicial: 0** • **Máximo: 10**
 
-Representam sua pontuação.
-
-**Inicial: 0**  
-**Máximo: 10**
-
-Você precisa retornar à Base para garantir suas Conquistas.
+Representam sua pontuação. Você precisa retornar à Base para garantir suas Conquistas.
 
 ---
 
 # ⚔️ Como funcionam os desafios?
 
-Não existem monstros para derrotar.
-
-Os "inimigos" são situações que um explorador pode encontrar durante uma jornada.
+Não existem monstros para derrotar. Os "inimigos" são situações que um explorador pode encontrar durante uma jornada.
 
 A regra básica é:
 
@@ -153,18 +138,14 @@ Dificuldade do Desafio - Experiência = Energia perdida
 ```
 
 O resultado mínimo é 0.
-Exemplo
-Seu Explorador possui:
-Experiência: 3
 
-e encontra:
-Desafio nível 5
+**Exemplo:** Experiência 3 contra Desafio nível 5:
 
-Então:
+```text
 5 - 3 = 2
+```
 
-Você perde 2 de Energia.
-Mas superar desafios difíceis também faz seu Explorador crescer.
+Você perde **2 de Energia**.
 
 > **A trilha não fica mais fácil. Você fica mais preparado.**
 
@@ -172,117 +153,118 @@ Mas superar desafios difíceis também faz seu Explorador crescer.
 
 # 🎒 Recursos
 
-Durante a exploração existem mochilas espalhadas pelo mapa.
-Ao encontrar uma:
-Role 1d12
+Durante a exploração existem mochilas espalhadas pelo mapa. Ao encontrar uma, role **1d12** e consulte a tabela de Recursos da modalidade utilizada.
 
-e consulte a tabela de Recursos da modalidade utilizada.
-Você poderá encontrar equipamentos, alimento, orientação e outras vantagens...
-...ou descobrir que nem toda mochila significa boas notícias. 😅
+Você poderá encontrar equipamentos, alimento, orientação e outras vantagens... ou descobrir que nem toda mochila significa boas notícias. 😅
+
+---
 
 # 🗺️ Crie suas próprias trilhas
-Uma das principais características de Trilha do Explorador é que você não precisa jogar sempre no mesmo mapa.
-O projeto inclui peças recortáveis para criação de novas aventuras.
-São:
 
-8 × Recursos  
-24 × Desafios  
-   └── 3 de cada nível (1–8)  
+O projeto inclui peças recortáveis para criação de novas aventuras:
 
-1 × Base  
-1 × Marco da Trilha  
+- 8 × Recursos
+- 24 × Desafios, sendo 3 de cada nível (1–8)
+- 1 × Base
+- 1 × Marco da Trilha
 
 Utilizando d6 e d12, é possível gerar a distribuição dos elementos e criar mapas diferentes.
-Isso significa que cada jogador pode criar suas próprias missões.
 
 ---
 
 # 🖨️ Print & Play
 
 Para jogar:
+
 1. Baixe os arquivos deste repositório.
 2. Imprima o mapa desejado.
 3. Imprima e recorte os marcadores.
 4. Separe dados e marcadores.
 5. Escolha sua modalidade.
 6. Coloque o Explorador na Base.
-E...
 
-# ⚜️ Sempre Alerta!
+## ⚜️ Sempre Alerta!
 
 ---
 
 # 📥 Downloads
 
-Os arquivos estão organizados nas pastas deste repositório.
 ## 📖 Manual
-[/manual](https://github.com/Igor-Gomes-ETI/trilha-do-explorador/tree/main/manual)  
-Manual completo em:
-- PDF
+
+[📖 Acessar a pasta /manual](./manual)
+
+Manual completo do jogo em PDF.
 
 ## 🗺️ Mapas
-[/mapas](https://github.com/Igor-Gomes-ETI/trilha-do-explorador/tree/main/mapas)  
+
+[🗺️ Acessar a pasta /mapas](./mapas)
+
 Mapas para:
+
 - 🌿 Escoteiro Base
 - ✈️ Escoteiros do Ar
 - 🌊 Escoteiros do Mar
 
-# ✂️ Material Print & Play
-/print-and-play
-Peças para impressão, recorte e criação de mapas personalizados.
+## ✂️ Material Print & Play
+
+[✂️ Acessar a pasta /print-and-play](./print-and-play)
+
+Pacote preparado para impressão em folhas A4, reunindo mapas, materiais de jogo, peças recortáveis e mapa em branco.
 
 ---
 
 # 🧪 Projeto em desenvolvimento
-Trilha do Explorador é um projeto em evolução.
-Novas ideias poderão incluir:
-- novos mapas;
-- novas missões;
-- campanhas;
-- desafios especiais;
-- equipamentos;
-- personagens;
-- variantes de regras;
-- modo cooperativo;
-- novas aventuras Print & Play.
+
+**Trilha do Explorador** é um projeto em evolução. Novas ideias poderão incluir novos mapas, missões, campanhas, desafios especiais, equipamentos, personagens, variantes de regras, modo cooperativo e novas aventuras Print & Play.
 
 ---
 
 # 🤝 Contribuições
-Criou uma missão?  
-Inventou um mapa?  
-Testou o jogo e encontrou algo que poderia funcionar melhor?  
-Contribuições e sugestões são bem-vindas.  
-Você pode abrir uma Issue para relatar uma ideia ou problema.  
-Caso queira contribuir diretamente com o projeto, também poderá enviar um Pull Request.  
+
+Criou uma missão? Inventou um mapa? Testou o jogo e encontrou algo que poderia funcionar melhor?
+
+Contribuições e sugestões são bem-vindas. Você pode abrir uma **Issue** para relatar uma ideia ou problema, ou enviar um **Pull Request**.
 
 ---
 
 # 📸 Mostre sua aventura
-Montou seu mapa ou jogou uma partida?  
-Compartilhe uma foto da sua Trilha do Explorador.  
-Será muito interessante descobrir as trilhas criadas por outros jogadores. ⚜️  
+
+Montou seu mapa ou jogou uma partida? Compartilhe uma foto da sua **Trilha do Explorador**.
+
+Será muito interessante descobrir as trilhas criadas por outros jogadores. ⚜️
 
 ---
 
 # 📜 Licença
-Consulte o arquivo [LICENSE](https://github.com/Igor-Gomes-ETI/trilha-do-explorador/blob/main/LICENSE) deste repositório para saber as condições de uso, distribuição e modificação do material.
+
+**Trilha do Explorador © 2026 Igor Gomes**
+
+Este projeto é disponibilizado sob a licença **Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional (CC BY-NC-SA 4.0)**.
+
+Você pode compartilhar e adaptar o material para fins não comerciais, desde que atribua os créditos ao autor original e distribua adaptações sob a mesma licença.
+
+O uso comercial requer autorização específica do autor.
+
+Consulte o arquivo [LICENSE](./LICENSE) para os termos e referências da licença.
 
 ---
 
 # 👨‍💻 Autor
-## Igor Gomes  
-Idealização e desenvolvimento de Trilha do Explorador.  
-Projeto desenvolvido a partir da paixão por escotismo, jogos, exploração e criação de experiências.  
+
+## Igor Gomes
+
+Idealização e desenvolvimento de **Trilha do Explorador**.
+
+Projeto desenvolvido a partir da paixão por escotismo, jogos, exploração e criação de experiências.
 
 ---
 
 <p align="center">
 
-<h1>⚜️ TRILHA DO EXPLORADOR</h1>  
-Explorar • Observar • Aprender • Superar  
-Sempre Alerta!
+<h1>⚜️ TRILHA DO EXPLORADOR</h1>
+
+**Explorar • Observar • Aprender • Superar**
+
+**Sempre Alerta!**
+
 </p>
-
-```
-
