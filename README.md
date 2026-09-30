@@ -266,7 +266,7 @@ Será muito interessante descobrir as trilhas criadas por outros jogadores. ⚜�
 ---
 
 # 📜 Licença
-Consulte o arquivo LICENSE deste repositório para saber as condições de uso, distribuição e modificação do material.
+Consulte o arquivo [LICENSE](https://github.com/Igor-Gomes-ETI/trilha-do-explorador/blob/main/LICENSE) deste repositório para saber as condições de uso, distribuição e modificação do material.
 
 ---
 
@@ -279,7 +279,7 @@ Projeto desenvolvido a partir da paixão por escotismo, jogos, exploração e cr
 
 <p align="center">
 
-⚜️ TRILHA DO EXPLORADOR  
+<h1>⚜️ TRILHA DO EXPLORADOR</h1>  
 Explorar • Observar • Aprender • Superar  
 Sempre Alerta!
 </p>
