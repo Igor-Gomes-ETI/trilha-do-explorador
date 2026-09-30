@@ -182,12 +182,12 @@ Uma das principais características de Trilha do Explorador é que você não pr
 O projeto inclui peças recortáveis para criação de novas aventuras.
 São:
 
-8 × Recursos
-24 × Desafios
-   └── 3 de cada nível (1–8)
-
-1 × Base
-1 × Marco da Trilha
+|8 × Recursos
+|24 × Desafios
+|   └── 3 de cada nível (1–8)
+|
+|1 × Base
+|1 × Marco da Trilha
 
 Utilizando d6 e d12, é possível gerar a distribuição dos elementos e criar mapas diferentes.
 Isso significa que cada jogador pode criar suas próprias missões.
