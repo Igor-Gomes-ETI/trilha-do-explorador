@@ -249,19 +249,19 @@ Novas ideias poderão incluir:
 ---
 
 # 🤝 Contribuições
-Criou uma missão?
-Inventou um mapa?
-Testou o jogo e encontrou algo que poderia funcionar melhor?
-Contribuições e sugestões são bem-vindas.
-Você pode abrir uma Issue para relatar uma ideia ou problema.
-Caso queira contribuir diretamente com o projeto, também poderá enviar um Pull Request.
+Criou uma missão?  
+Inventou um mapa?  
+Testou o jogo e encontrou algo que poderia funcionar melhor?  
+Contribuições e sugestões são bem-vindas.  
+Você pode abrir uma Issue para relatar uma ideia ou problema.  
+Caso queira contribuir diretamente com o projeto, também poderá enviar um Pull Request.  
 
 ---
 
 # 📸 Mostre sua aventura
-Montou seu mapa ou jogou uma partida?
-Compartilhe uma foto da sua Trilha do Explorador.
-Será muito interessante descobrir as trilhas criadas por outros jogadores. ⚜️
+Montou seu mapa ou jogou uma partida?  
+Compartilhe uma foto da sua Trilha do Explorador.  
+Será muito interessante descobrir as trilhas criadas por outros jogadores. ⚜️  
 
 ---
 
@@ -271,16 +271,16 @@ Consulte o arquivo LICENSE deste repositório para saber as condições de uso, 
 ---
 
 # 👨‍💻 Autor
-Igor Gomes
-Idealização e desenvolvimento de Trilha do Explorador.
-Projeto desenvolvido a partir da paixão por escotismo, jogos, exploração e criação de experiências.
+## Igor Gomes  
+Idealização e desenvolvimento de Trilha do Explorador.  
+Projeto desenvolvido a partir da paixão por escotismo, jogos, exploração e criação de experiências.  
 
 ---
 
 <p align="center">
 
-⚜️ TRILHA DO EXPLORADOR
-Explorar • Observar • Aprender • Superar
+⚜️ TRILHA DO EXPLORADOR  
+Explorar • Observar • Aprender • Superar  
 Sempre Alerta!
 </p>
 
