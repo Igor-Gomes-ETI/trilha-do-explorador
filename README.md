@@ -10,6 +10,9 @@ Mas existe um detalhe:
 
 **chegar ao objetivo é apenas metade da aventura. Você ainda precisa voltar.**
 
+<img width="2484" height="3512" alt="Trilha do Explorador capa" src="https://github.com/user-attachments/assets/ecf24cca-44ef-4e20-a53e-1fb2888da190" />
+
+
 ---
 
 ## 🧭 Sobre o jogo
