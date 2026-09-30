@@ -216,12 +216,12 @@ E...
 
 Os arquivos estão organizados nas pastas deste repositório.
 ## 📖 Manual
-[/manual](https://github.com/Igor-Gomes-ETI/trilha-do-explorador/tree/main/manual)
+[/manual](https://github.com/Igor-Gomes-ETI/trilha-do-explorador/tree/main/manual)  
 Manual completo em:
 - PDF
 
 ## 🗺️ Mapas
-[/mapas](https://github.com/Igor-Gomes-ETI/trilha-do-explorador/tree/main/mapas)
+[/mapas](https://github.com/Igor-Gomes-ETI/trilha-do-explorador/tree/main/mapas)  
 Mapas para:
 - 🌿 Escoteiro Base
 - ✈️ Escoteiros do Ar
