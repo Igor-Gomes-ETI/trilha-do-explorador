@@ -9,6 +9,21 @@
   <img alt="Última versão" src="https://img.shields.io/github/v/release/Igor-Gomes-ETI/trilha-do-explorador?label=Vers%C3%A3o&style=flat-square" />
 </p>
 
+<div align="center">
+
+## 🎲 QUER JOGAR? BAIXE AQUI
+
+### [📥 BAIXAR O JOGO COMPLETO EM PDF](https://github.com/Igor-Gomes-ETI/trilha-do-explorador/releases/download/v1.0.0/Trilha-do-Explorador-Print-and-Play.pdf)
+
+**Não é necessário ter conta no GitHub.**  
+Clique no botão acima e o arquivo Print & Play será baixado diretamente.
+
+[📋 Ver detalhes da versão v1.0.0](https://github.com/Igor-Gomes-ETI/trilha-do-explorador/releases/tag/v1.0.0)
+
+</div>
+
+---
+
 **Trilha do Explorador** é um jogo de tabuleiro Print & Play inspirado no universo escoteiro.
 
 Prepare sua mochila, escolha uma modalidade e parta da Base para uma jornada cheia de desafios, recursos e decisões.
@@ -181,20 +196,26 @@ Utilizando d6 e d12, é possível gerar a distribuição dos elementos e criar m
 
 # 🖨️ Print & Play
 
-Para jogar:
+> ### 📥 [BAIXAR O TRILHA DO EXPLORADOR v1.0.0](https://github.com/Igor-Gomes-ETI/trilha-do-explorador/releases/download/v1.0.0/Trilha-do-Explorador-Print-and-Play.pdf)
+>
+> **Para quem só quer jogar, este é o download recomendado.** O PDF reúne o material Print & Play preparado para impressão. Você não precisa procurar arquivos nas pastas do GitHub.
 
-1. Baixe os arquivos deste repositório.
-2. Imprima o mapa desejado.
-3. Imprima e recorte os marcadores.
+Depois de baixar:
+
+1. Abra o PDF.
+2. Imprima em papel A4, escala 100%.
+3. Recorte os marcadores.
 4. Separe dados e marcadores.
 5. Escolha sua modalidade.
-6. Coloque o Explorador na Base.
+6. Coloque o Explorador na Base e comece a jornada.
 
 ## ⚜️ Sempre Alerta!
 
 ---
 
-# 📥 Downloads
+# 📚 Arquivos do projeto
+
+As pastas abaixo são destinadas principalmente a quem deseja consultar os arquivos separadamente, acompanhar o desenvolvimento ou contribuir com o projeto.
 
 ## 📖 Manual
 
@@ -214,9 +235,13 @@ Mapas para:
 
 ## ✂️ Material Print & Play
 
-[✂️ Acessar a pasta /print-and-play](./print-and-play)
+**Quer apenas jogar?** Use o download direto:
 
-Pacote preparado para impressão em folhas A4, reunindo mapas, materiais de jogo, peças recortáveis e mapa em branco.
+### [📥 BAIXAR PDF COMPLETO](https://github.com/Igor-Gomes-ETI/trilha-do-explorador/releases/download/v1.0.0/Trilha-do-Explorador-Print-and-Play.pdf)
+
+[🗂️ Explorar a pasta /print-and-play](./print-and-play)
+
+A pasta contém informações e materiais do Print & Play. Para jogadores, recomendamos o botão **Baixar PDF Completo** acima.
 
 ---
 
