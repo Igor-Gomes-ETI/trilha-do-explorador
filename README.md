@@ -2,6 +2,13 @@
 
 > **Explore • Observe • Aprenda • Supere**
 
+<p align="center">
+  <img alt="Visualizações do repositório" src="https://komarev.com/ghpvc/?username=Igor-Gomes-ETI-trilha-do-explorador&label=Visualiza%C3%A7%C3%B5es&style=flat-square" />
+  <img alt="Downloads da versão mais recente" src="https://img.shields.io/github/downloads/Igor-Gomes-ETI/trilha-do-explorador/latest/total?label=Downloads&style=flat-square" />
+  <img alt="Downloads totais" src="https://img.shields.io/github/downloads/Igor-Gomes-ETI/trilha-do-explorador/total?label=Downloads%20totais&style=flat-square" />
+  <img alt="Última versão" src="https://img.shields.io/github/v/release/Igor-Gomes-ETI/trilha-do-explorador?label=Vers%C3%A3o&style=flat-square" />
+</p>
+
 **Trilha do Explorador** é um jogo de tabuleiro Print & Play inspirado no universo escoteiro.
 
 Prepare sua mochila, escolha uma modalidade e parta da Base para uma jornada cheia de desafios, recursos e decisões.
