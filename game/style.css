@@ -41,3 +41,17 @@ body{background:#243323;background-image:radial-gradient(#40543a 1px,transparent
 .primary{width:100%;font-size:16px}.moves{text-align:center;background:#292b28;color:#fff;margin:12px 0;padding:10px;border-radius:6px}.moves b{display:block;font-size:32px}.hint{font-size:13px}.right-panel button{width:100%;margin:4px 0}.levels{display:grid;grid-template-columns:repeat(8,1fr);gap:5px}.levels span{padding:10px 3px;text-align:center;background:#d6c184;border:2px solid #806036;border-radius:6px;font-size:11px;font-weight:bold}.levels span:nth-child(n+5){background:#a99ac9}.bottom #log{height:145px;background:#f5e7c7;border:2px inset #a88352;padding:6px}
 .coords{word-spacing:calc((100% - 230px)/9);padding:0 8%;font-weight:900;text-align:center;font-family:monospace}
 @media(max-width:1050px){.dashboard{grid-template-columns:1fr 1fr;grid-template-areas:"center center" "left right" "bottom bottom"}}@media(max-width:700px){.dashboard{display:flex;flex-direction:column}.center-panel{order:-2}.right-panel{order:-1}.bottom{grid-template-columns:1fr}.character span{font-size:40px}}
+
+/* v0.5: peças integradas ao mapa + correção de sobreposição do modal */
+.modal{z-index:10000;isolation:isolate;backdrop-filter:blur(2px)}
+.modal .card{position:relative;z-index:10001;overflow:hidden}
+body.modal-open #board .cell{pointer-events:none}
+body.modal-open #board .game-icon,body.modal-open #board .cell:after{visibility:hidden}
+.game-icon{border:0!important;box-shadow:none!important;background-color:transparent!important;border-radius:0!important;filter:drop-shadow(0 3px 2px #0006)}
+.cell.blocked .game-icon{width:94%;height:94%;opacity:.95}
+.cell.player:after{border:0!important;border-radius:0!important;box-shadow:none!important;filter:drop-shadow(0 4px 3px #0008);width:72%;height:72%;right:14%;bottom:12%;background-color:transparent}
+.cell.player-girl:after{background-position:0 0;transform:scaleX(-1)}
+.cell.player{outline:3px solid #ffd447;box-shadow:inset 0 0 16px #ffd44788}
+.cell.visited:after{z-index:1}
+.cell.player:after{z-index:6}
+.modal:not(.hidden)~*{ }
