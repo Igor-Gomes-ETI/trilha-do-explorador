@@ -55,3 +55,15 @@ body.modal-open #board .game-icon,body.modal-open #board .cell:after{visibility:
 .cell.visited:after{z-index:1}
 .cell.player:after{z-index:6}
 .modal:not(.hidden)~*{ }
+
+/* v0.6: marcadores próprios, sem aparência de cartas recortadas */
+.map-token,.special-token,.terrain-symbol{position:relative;z-index:4;display:grid;place-items:center;pointer-events:none}
+.resource-token{width:62%;height:68%;font-size:clamp(18px,3.1vw,36px);filter:drop-shadow(0 4px 2px #0007);transform:rotate(-3deg)}
+.challenge-token{width:58%;aspect-ratio:1;border-radius:48% 52% 44% 56%;background:radial-gradient(circle at 35% 25%,#8f8777,#554d43 62%,#29251f);border:2px solid #c8b995;box-shadow:0 4px 5px #0007,inset 0 2px 3px #fff4;color:#f7e6ad;font-family:Georgia,serif;font-size:clamp(14px,2vw,25px);transform:rotate(2deg)}
+.challenge-token:before{content:"?";position:absolute;font-size:190%;opacity:.18}.challenge-token b{z-index:2;text-shadow:1px 2px #000}
+.challenge-token.level-7,.challenge-token.level-8{border-color:#e2a948;box-shadow:0 0 8px #e2a948,0 4px 5px #0007}
+.special-token{width:76%;height:76%;border-radius:50%;filter:drop-shadow(0 4px 3px #0007);font-family:Georgia,serif;font-weight:900;text-shadow:1px 1px #fff8}.special-token i{font-style:normal;font-size:clamp(20px,3vw,38px);line-height:.8}.special-token b{font-size:clamp(7px,.8vw,11px)}
+.camp-token{background:radial-gradient(circle,#f2d27c 0 38%,#56713c 40% 64%,#2e4729 66%);color:#1f3c26;border:2px solid #ead9a5}.mark-token{background:radial-gradient(circle,#f4d96f 0 38%,#9e3b2d 40% 64%,#5d241e 66%);color:#70251f;border:2px solid #f0d797}
+.terrain-symbol{width:90%;height:90%;font-size:clamp(24px,4vw,52px);opacity:.8}.forest-symbol{color:#173e25;text-shadow:-10px 8px #275633,10px 6px #315f38}.mountain-symbol{color:#665f52;text-shadow:-9px 8px #80796b,9px 8px #4c4942}
+.cell.player .special-token,.cell.player .map-token{opacity:.35}
+body.modal-open #board .map-token,body.modal-open #board .special-token,body.modal-open #board .terrain-symbol,body.modal-open #board .cell:after{visibility:hidden}
