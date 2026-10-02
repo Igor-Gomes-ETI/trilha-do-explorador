@@ -13,10 +13,11 @@
 
 ## 🎲 COMO VOCÊ QUER EXPLORAR?
 
-### 🎮 VERSÃO DIGITAL EM DESENVOLVIMENTO
+### 🎮 JOGAR ONLINE
 
-A primeira versão jogável do **Escoteiro Base** já está no código do projeto, na pasta [`/game`](./game).  
-Em breve ela poderá ser aberta diretamente no navegador pelo GitHub Pages.
+### [🧭 ABRIR TRILHA DO EXPLORADOR DIGITAL](https://igor-gomes-eti.github.io/trilha-do-explorador/game/)
+
+A versão digital **0.1 — Escoteiro Base** já pode ser jogada diretamente no navegador. Não é necessário instalar ou baixar nada.
 
 ## 🎲 QUER JOGAR? BAIXE AQUI
 
