@@ -14,3 +14,17 @@ footer{text-align:center;padding:18px;color:#fff;background:var(--dark);margin-t
 #board{border-radius:10px;box-shadow:inset 0 0 25px #2d442d88,0 5px 15px #0003}
 .cell:hover:not(.blocked){outline:3px solid #f4d35e;z-index:4;transform:scale(1.04)}
 .cell.visited:after{content:"";position:absolute;inset:6%;border:2px dashed #fff9;border-radius:35%;z-index:1}
+
+.game{background:linear-gradient(#f6e8c9ee,#ead4a9ee),repeating-linear-gradient(0deg,#0000 0 22px,#745b3410 23px);position:relative}
+.game:before{content:"";position:absolute;inset:8px;border:1px solid #8b6a3b55;border-radius:11px;pointer-events:none}
+#board{position:relative;padding:5px;gap:2px;background:#604a2d;border:7px ridge #8a693d}
+.cell{border:0;border-radius:4px;box-shadow:inset 0 0 0 1px #fff3,inset 0 -5px 10px #0001;transition:transform .12s,filter .12s}
+.cell:before{border-radius:4px}
+.cell:hover:not(.blocked){outline:3px solid #ffd65a;filter:brightness(1.08)}
+.cell.blocked{filter:saturate(.85) brightness(.8)}
+.cell.blocked:hover{transform:none}
+.game-icon{width:82%;height:82%;border:2px solid #f3dfb8;box-shadow:0 2px 5px #0005;background-color:#ead9ad}
+.cell.player{outline:3px solid #ffcf3a;z-index:5}
+.cell.player:after{width:64%;height:64%;right:-9%;bottom:-9%;border-width:2px}
+.map-key{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px;font-size:12px}
+.map-key span{padding:4px 7px;border:1px solid #8a6b3c;border-radius:12px;background:#fff8}
