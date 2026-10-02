@@ -1,0 +1,11 @@
+:root{--paper:#f4e6c5;--ink:#25352b;--green:#355e3b;--dark:#17351f;--gold:#d5a62e}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,Segoe UI,sans-serif;color:var(--ink);background:#d9cfac;background-image:linear-gradient(135deg,#d9cfac,#b9c49d)}
+header{display:flex;justify-content:space-between;align-items:center;padding:14px 5%;background:var(--dark);color:#fff;box-shadow:0 3px 10px #0005}header strong{font-size:clamp(18px,3vw,30px)}header small{display:block;opacity:.8}button{border:0;border-radius:10px;padding:11px 16px;font-weight:800;background:var(--gold);color:#18251b;cursor:pointer}
+main{max-width:1200px;margin:22px auto;padding:0 16px;display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:18px}.game,aside{background:var(--paper);border:3px solid #745b34;border-radius:16px;padding:16px;box-shadow:0 8px 22px #0002}
+.mission{display:flex;justify-content:space-between;gap:10px;margin-bottom:12px}.mission span{font-size:14px}
+#board{display:grid;grid-template-columns:repeat(10,1fr);aspect-ratio:1/1;max-width:760px;margin:auto;border:4px solid #4b3922;background:#c9d59c}
+.cell{position:relative;border:1px solid #ffffff66;display:grid;place-items:center;font-size:clamp(14px,2.6vw,28px);cursor:pointer;user-select:none;background:#b9ca88}.cell:nth-child(3n){background:#afc47d}.cell.blocked{background:#466b45;cursor:not-allowed}.cell.visited{box-shadow:inset 0 0 0 2px #fff8}.cell.player:after{content:"🧭";position:absolute;font-size:70%;right:1px;bottom:0;filter:drop-shadow(1px 1px 1px #000)}
+.stat{display:flex;justify-content:space-between;padding:10px 0;font-size:18px}.stat b{background:#fff7;padding:2px 8px;border-radius:8px}#log{max-height:250px;overflow:auto;font-size:14px;line-height:1.45}.entry{border-bottom:1px solid #8b765633;padding:6px 0}.legend{margin-top:16px;font-size:13px;line-height:1.8}
+.modal{position:fixed;inset:0;background:#0009;display:grid;place-items:center;padding:20px}.modal.hidden{display:none}.card{max-width:460px;background:var(--paper);border:4px solid #745b34;border-radius:18px;padding:24px;text-align:center;box-shadow:0 18px 60px #0008}.card h2{color:var(--green)}
+footer{text-align:center;padding:18px;color:#fff;background:var(--dark);margin-top:24px}
+@media(max-width:800px){main{grid-template-columns:1fr}.mission{flex-direction:column}aside{order:-1}#board{width:100%}}
