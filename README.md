@@ -11,6 +11,13 @@
 
 <div align="center">
 
+## 🎲 COMO VOCÊ QUER EXPLORAR?
+
+### 🎮 VERSÃO DIGITAL EM DESENVOLVIMENTO
+
+A primeira versão jogável do **Escoteiro Base** já está no código do projeto, na pasta [`/game`](./game).  
+Em breve ela poderá ser aberta diretamente no navegador pelo GitHub Pages.
+
 ## 🎲 QUER JOGAR? BAIXE AQUI
 
 ### [📥 BAIXAR O JOGO COMPLETO EM PDF](https://github.com/Igor-Gomes-ETI/trilha-do-explorador/releases/download/v1.0.0/Trilha-do-Explorador-Print-and-Play.pdf)
