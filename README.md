@@ -259,6 +259,12 @@ A pasta contém informações e materiais do Print & Play. Para jogadores, recom
 
 ---
 
+## 💚 Apoie o desenvolvimento
+
+O Trilha do Explorador continua disponível gratuitamente. Se você gosta do jogo e quer apoiar a criação de novos mapas, recursos e melhorias, considere [patrocinar Igor Gomes no GitHub Sponsors](https://github.com/sponsors/wizardigor). O apoio é voluntário e não condiciona o acesso ao jogo.
+
+---
+
 # 🤝 Contribuições
 
 Criou uma missão? Inventou um mapa? Testou o jogo e encontrou algo que poderia funcionar melhor?
